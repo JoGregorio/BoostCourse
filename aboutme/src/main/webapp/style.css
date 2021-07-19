@@ -1,0 +1,44 @@
+header {
+	height : 60px;
+}
+
+ul {
+	float : right;
+}
+li{
+	text-align:center;
+	list-style:none;
+	float : left;
+	height : 30px;
+	width : 80px;
+	margin-right:5px;
+	padding: 5px 40px;
+	
+}
+.main {
+	text-align : center;
+}
+p{
+	margin-bottom : 20px;
+}
+
+.button > span {
+	height : 20px;
+	padding : 10px;
+}
+
+.image{
+	margin : 40px;
+}
+
+footer {
+	height : 20%;
+	text-align: center;
+}
+
+li, .button > span {
+	box-shadow: 5px 5px;
+	cursor : pointer;
+	margin-right : 15px;
+	background-color : gray;
+}
