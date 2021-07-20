@@ -15,8 +15,11 @@ li{
 	padding: 5px 40px;
 	
 }
-.main {
+.index_main {
 	text-align : center;
+}
+.photo_main {
+	margin : 20px;
 }
 p{
 	margin-bottom : 20px;
@@ -27,8 +30,20 @@ p{
 	padding : 10px;
 }
 
-.image{
+.index_image{
 	margin : 40px;
+}
+
+.photo_image{
+	border:1rem solid red;
+	vertical-align: middle;
+}
+
+.photo_text{
+	margin-left:20px;
+}
+.aboutme_text{
+	margin-bottom: 20px;
 }
 
 footer {
