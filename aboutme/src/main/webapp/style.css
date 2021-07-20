@@ -1,11 +1,13 @@
-header {
+/* 상단 헤더크기 지정 */
+.global_header {
 	height : 60px;
 }
 
-ul {
+/* 메뉴 관련 속성 지정 */
+.global_menu {
 	float : right;
 }
-li{
+.global_menu > li{
 	text-align:center;
 	list-style:none;
 	float : left;
@@ -13,24 +15,24 @@ li{
 	width : 80px;
 	margin-right:5px;
 	padding: 5px 40px;
-	
 }
+
+/* index.html 내부요소 속성 지정 */
 .index_main {
 	text-align : center;
 }
-p{
+.index_text{
 	margin-bottom : 20px;
 }
-
-.button > span {
+.index_button {
 	height : 20px;
 	padding : 10px;
 }
-
 .index_image{
 	margin : 40px;
 }
 
+/* photo.html 내부요소 속성 지정 */
 .photo_image{
 	border:1rem solid red;
 	vertical-align: middle;
@@ -45,18 +47,27 @@ p{
 .photo_clear{
 	clear: both;
 }
+
+/* aboutme.html 내부요소 속성 지정 */
 .aboutme_text{
 	margin-bottom: 20px;
 }
 
+/* 하단 꼬리말 속성 지정 */
 footer {
 	height : 20%;
 	text-align: center;
 }
 
-li, .button > span {
+/* 그림자 음영 효과 */
+.global_menu > li, .index_button {
 	box-shadow: 5px 5px;
 	cursor : pointer;
 	margin-right : 15px;
 	background-color : gray;
+}
+
+/* 밑줄 없애기 */
+a{
+	text-decoration-line : none;
 }
